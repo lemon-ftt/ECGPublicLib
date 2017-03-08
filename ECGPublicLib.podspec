@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ECGPublicLib"
-  s.version      = "1.0.6"
+  s.version      = "1.1.2"
   s.summary      = "ECGPublicLib is a SDK content a lots of public tools, in order to use in program."
 
   # This description is used to generate tags and improve search results.
@@ -89,12 +89,22 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ECGPublicLib", "ECGPublicLib/**/*}"
+  # s.source_files  = "ECGPublicLib", "ECGPublicLib/**/*}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
+  s.subspec 'ECGCustomCell' do |cell|
+      cell.source_files = 'ECGPublicLib/ECGCustomCell/*.{h,m}'
+      
+  end
+ 
+  s.subspec 'model' do |m|
+      m.source_files = 'ECGPublicLib/model/*.{h,m}'
+      
+  end
 
+  
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
