@@ -16,6 +16,11 @@
 		275A8F981E6EB2E400EA23B3 /* ECGCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 275A8F941E6EB2E400EA23B3 /* ECGCustomCell.m */; };
 		275A8F9D1E6FCD3E00EA23B3 /* ECGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 275A8F9C1E6FCD3E00EA23B3 /* ECGModel.m */; };
 		275A8FEF1E6FE4CA00EA23B3 /* ECGLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 275A8FEE1E6FE4CA00EA23B3 /* ECGLayoutConstraint.m */; };
+		27A132C41E76740C001EC856 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A132BD1E76740C001EC856 /* NSArray+Safe.m */; };
+		27A132C51E76740C001EC856 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A132BF1E76740C001EC856 /* NSDictionary+Safe.m */; };
+		27A132C61E76740C001EC856 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A132C11E76740C001EC856 /* NSMutableArray+Safe.m */; };
+		27A132C71E76740C001EC856 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A132C31E76740C001EC856 /* NSMutableDictionary+Safe.m */; };
+		27A132CA1E767465001EC856 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A132C91E767465001EC856 /* NSObject+Swizzling.m */; };
 		6757A2AAC2B7B28662C151A3 /* libPods-ECGPublicLibDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2F490855761C5AC537FF95 /* libPods-ECGPublicLibDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +41,16 @@
 		275A8F9C1E6FCD3E00EA23B3 /* ECGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECGModel.m; sourceTree = "<group>"; };
 		275A8FED1E6FE4CA00EA23B3 /* ECGLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGLayoutConstraint.h; sourceTree = "<group>"; };
 		275A8FEE1E6FE4CA00EA23B3 /* ECGLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECGLayoutConstraint.m; sourceTree = "<group>"; };
+		27A132BC1E76740C001EC856 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		27A132BD1E76740C001EC856 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		27A132BE1E76740C001EC856 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		27A132BF1E76740C001EC856 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		27A132C01E76740C001EC856 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		27A132C11E76740C001EC856 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		27A132C21E76740C001EC856 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		27A132C31E76740C001EC856 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		27A132C81E767465001EC856 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		27A132C91E767465001EC856 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 		3C2407EF4533815298BAEFCD /* Pods-ECGPublicLibDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECGPublicLibDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECGPublicLibDemo/Pods-ECGPublicLibDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3E2F490855761C5AC537FF95 /* libPods-ECGPublicLibDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ECGPublicLibDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B8253EDFCA05A8574A713C /* Pods-ECGPublicLibDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECGPublicLibDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECGPublicLibDemo/Pods-ECGPublicLibDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +97,7 @@
 		275A8F711E6EB0C100EA23B3 /* ECGPublicLibDemo */ = {
 			isa = PBXGroup;
 			children = (
+				27A132BB1E76740C001EC856 /* ECGSet+Safe */,
 				275A8FEC1E6FE4CA00EA23B3 /* ECGLayoutConstraint */,
 				275A8F9A1E6FCD3E00EA23B3 /* model */,
 				275A8F921E6EB2E400EA23B3 /* ECGCustomCell */,
@@ -131,6 +147,23 @@
 				275A8FEE1E6FE4CA00EA23B3 /* ECGLayoutConstraint.m */,
 			);
 			path = ECGLayoutConstraint;
+			sourceTree = "<group>";
+		};
+		27A132BB1E76740C001EC856 /* ECGSet+Safe */ = {
+			isa = PBXGroup;
+			children = (
+				27A132C81E767465001EC856 /* NSObject+Swizzling.h */,
+				27A132C91E767465001EC856 /* NSObject+Swizzling.m */,
+				27A132BC1E76740C001EC856 /* NSArray+Safe.h */,
+				27A132BD1E76740C001EC856 /* NSArray+Safe.m */,
+				27A132BE1E76740C001EC856 /* NSDictionary+Safe.h */,
+				27A132BF1E76740C001EC856 /* NSDictionary+Safe.m */,
+				27A132C01E76740C001EC856 /* NSMutableArray+Safe.h */,
+				27A132C11E76740C001EC856 /* NSMutableArray+Safe.m */,
+				27A132C21E76740C001EC856 /* NSMutableDictionary+Safe.h */,
+				27A132C31E76740C001EC856 /* NSMutableDictionary+Safe.m */,
+			);
+			path = "ECGSet+Safe";
 			sourceTree = "<group>";
 		};
 		F184B4FE33651F9188378A19 /* Pods */ = {
@@ -266,11 +299,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				275A8F9D1E6FCD3E00EA23B3 /* ECGModel.m in Sources */,
+				27A132C41E76740C001EC856 /* NSArray+Safe.m in Sources */,
 				275A8F981E6EB2E400EA23B3 /* ECGCustomCell.m in Sources */,
 				275A8FEF1E6FE4CA00EA23B3 /* ECGLayoutConstraint.m in Sources */,
+				27A132C71E76740C001EC856 /* NSMutableDictionary+Safe.m in Sources */,
+				27A132CA1E767465001EC856 /* NSObject+Swizzling.m in Sources */,
 				275A8F7A1E6EB0C100EA23B3 /* ViewController.m in Sources */,
+				27A132C61E76740C001EC856 /* NSMutableArray+Safe.m in Sources */,
 				275A8F771E6EB0C100EA23B3 /* AppDelegate.m in Sources */,
 				275A8F741E6EB0C100EA23B3 /* main.m in Sources */,
+				27A132C51E76740C001EC856 /* NSDictionary+Safe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
