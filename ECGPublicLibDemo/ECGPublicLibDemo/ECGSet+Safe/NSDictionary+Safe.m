@@ -8,10 +8,8 @@
 //
 //
 //  NSDictionary+Safe.m
-//  SnapEcgDoctor
 //
 //  Created by tan on 2017/2/14.
-//  Copyright © 2017年 baotiao ni. All rights reserved.
 //
 
 #import "NSDictionary+Safe.h"

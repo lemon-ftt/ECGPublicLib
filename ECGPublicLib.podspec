@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ECGPublicLib"
-  s.version      = "1.1.5"
+  s.version      = "1.1.6"
   s.summary      = "ECGPublicLib is a SDK content a lots of public tools, in order to use in program."
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "ECGPublicLib is a SDK content a lots of public tools, in order to use in program,ECGPublicLib is a SDK content a lots of public tools, in order to use in program."
 
-  s.homepage     = "https://github.com/fttios/ECGPublicLib/tree/master"
+  s.homepage     = "https://github.com/fttios/ECGPublicLib/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -110,7 +110,12 @@ Pod::Spec.new do |s|
       lc.source_files = 'ECGPublicLib/ECGLayoutConstraint/*.{h,m}'
 
   end
-  
+
+  s.subspec 'ECGSet+Safe' do |ss|
+      ss.source_files = 'ECGPublicLib/ECGSet+Safe/*.{h,m}'
+
+  end  
+
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the

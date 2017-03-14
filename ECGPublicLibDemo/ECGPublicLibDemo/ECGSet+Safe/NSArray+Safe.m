@@ -8,10 +8,8 @@
 //
 //
 //  NSArray+Safe.m
-//  SnapEcgDoctor
 //  防止数组越界错误
 //  Created by baotiao ni on 2016/12/7.
-//  Copyright © 2016年 baotiao ni. All rights reserved.
 //
 
 #import "NSArray+Safe.h"
