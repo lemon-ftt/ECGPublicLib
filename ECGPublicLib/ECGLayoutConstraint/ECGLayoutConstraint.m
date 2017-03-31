@@ -58,7 +58,7 @@
 
 /**
  以 6 的px像素值作为基础来计算其他屏幕的pt值-->约束
-
+ 
  @param value 6 的px像素值
  @return 当前设备的pt值
  */
@@ -126,13 +126,15 @@
             size = fontSize;
             break ;
         case CYDeviceTypeIphone6p:
-            size = (fontSize *1.104);
+            size = (fontSize *1.009);
+            //size = (fontSize *1.104);
             break ;
         case CYDeviceTypeIphone7p:
-            size = (fontSize *1.104);
+            size = (fontSize *1.009);
             break ;
         default:
-            size = (fontSize *0.85333333);
+            size = (fontSize *0.95000);
+            //size = (fontSize *0.85333333);
             break ;
     }
     return size;
@@ -150,7 +152,7 @@
     CGFloat size = 0.0f;
     switch (layoutConstraint.deviceType) {
         case CYDeviceTypeIphone6:
-            size = (fontSize *0.9);
+            size = (fontSize *0.93);//适当调整的
             break ;
         case CYDeviceTypeIphone6p:
             size = fontSize;
@@ -159,7 +161,7 @@
             size = fontSize;
             break ;
         default:
-            size = (fontSize *0.7);
+            size = (fontSize *0.85);//适当调整的
             break ;
     }
     return size;

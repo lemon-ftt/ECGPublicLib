@@ -10,8 +10,10 @@
 #import <UIKit/UIKit.h>
 
 
-// 根据比例设置约束
-#define ECGLayoutConstraintEqualTo(constraint)   [ECGLayoutConstraint getConstrainlWithValueFrom6:constraint]
+// 根据6比例设置约束
+#define ECGLayoutConstraintEqualTo6(constraint)   [ECGLayoutConstraint getConstrainlWithValueFrom6:constraint]
+// 根据6P比例设置约束
+#define ECGLayoutConstraintEqualTo(constraint)   [ECGLayoutConstraint getConstrainlWithValueFrom6P:constraint]
 /// 设置不同的尺寸的字体对象
 #define ECGAdjustFont(fontSize)                  [ECGLayoutConstraint getAdjustsFont:fontSize]
 // 得到一个不同字体的字号大小
