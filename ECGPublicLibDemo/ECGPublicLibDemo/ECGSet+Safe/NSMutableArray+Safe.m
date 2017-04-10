@@ -47,11 +47,11 @@
             }
             if (objects[i] == nil) {
                 hasNilObject = YES;
-                NSLog(@"%s object at index %lu is nil, it will be     filtered", __FUNCTION__, i);
+                NSLog(@"%s object at index %lu is nil, it will be     filtered", __FUNCTION__, (unsigned long)i);
                 
 #if DEBUG
                 // 对数组中为nil的元素信息打印出来
-                NSString *errorMsg = [NSString     stringWithFormat:@"数组元素不能为nil，其index为: %lu", i];
+                NSString *errorMsg = [NSString     stringWithFormat:@"数组元素不能为nil，其index为: %lu", (unsigned long)i];
                 NSAssert(objects[i] != nil, errorMsg);
 #endif
             }
