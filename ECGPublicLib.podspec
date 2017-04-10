@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ECGPublicLib"
-  s.version      = "1.1.6"
+  s.version      = "1.1.7"
   s.summary      = "ECGPublicLib is a SDK content a lots of public tools, in order to use in program."
 
   # This description is used to generate tags and improve search results.
