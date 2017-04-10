@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ECGPublicLib"
-  s.version      = "1.1.7"
+  s.version      = "1.2.1"
   s.summary      = "ECGPublicLib is a SDK content a lots of public tools, in order to use in program."
 
   # This description is used to generate tags and improve search results.
@@ -115,6 +115,13 @@ Pod::Spec.new do |s|
       ss.source_files = 'ECGPublicLib/ECGSet+Safe/*.{h,m}'
 
   end  
+
+  s.subspec 'Font+Size' do |fs|
+      fs.source_files = 'ECGPublicLib/Font+Size/*.{h,m}'
+      fs.dependency 'ECGPublicLib/ECGLayoutConstraint'
+
+  end
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
